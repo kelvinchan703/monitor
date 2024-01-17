@@ -1,0 +1,14 @@
+name: Monitor Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      parameter_name:
+        description: 'Description of the parameter'
+        required: true
+        default: 'Default value'
+
+  # Add other triggers if needed
+  push:
+    branches:
+      - main
