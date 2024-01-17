@@ -28,4 +28,4 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'monitor'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_083634A6362D4AB585D857AFC64D2C35 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_93CD6DCD5B174F6FAFBAC849433E1CE0 }}
