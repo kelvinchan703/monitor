@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'kelvin-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA8A5514F0104F3885BFFC276E97DC6D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_083634A6362D4AB585D857AFC64D2C35 }}
           package: .
